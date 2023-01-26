@@ -48,6 +48,8 @@ Feedback is appreciated. I am happy to add useful functions and fix bugs. I am s
 
 Email me at anzbert@gmail.com
 
+[Source](https://github.com/anzbert/Midi_Mute_and_Route)
+
 ## Change Log
 
 - 0.6 - Added an optional Midi note input that ONLY mutes without routing the sound. Updated the UI Style
