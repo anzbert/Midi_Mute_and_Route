@@ -36,7 +36,7 @@ When the Maschine is set to show the current Sound plugin you can even tweak the
 
 Maybe take it further and add different effects on different Sound Pads in this Group. Make sure each Pad has its Audio input configured to a different Output Bus of Midi Mute&Route and its Midi Output set to send the corresponding Midi Note. This setup can serve as an alternative to Automation and Lock States. You could create a whole setup of instant FX pads, which are easily performable and recordable.
 
-Other configurations are also conceivable. For example you could route FX and versions of this plugin in Series, or you could route an Output Bus to different Targets, and so on...
+Other configurations are also conceivable. For example you could route FX and versions of this plugin in Series, or you could route an Output Bus to different Targets, you can play the pads with Note Repeat while playing with the Gate and the Timing, and so on...
 
 ## Maschine +
 
