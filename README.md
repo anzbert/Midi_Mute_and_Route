@@ -4,17 +4,17 @@
 
 A Reaktor Plugin which lets all incoming Audio pass through unless it receives a Midi Note, in which case it mutes the Sound on the main Output Bus of this plugin. Primarily made for Maschine, but it can still be used in any other project.
 
-As a secondary function, it can mute and then route the muted audio onto the Output Buses 2 to 8 of the plugin, where it can be used, for example, for fast and glitchy performance FX chains.
+As a secondary function, it can mute and then route the muted audio to the Output Buses 2 to 8 of the plugin, where it can be used, for example, for fast and glitchy performance FX chains.
 
 ## Basic Usage on Maschine
 
-Load Midi Mute&Route onto a pad and route audio to it from any other sound or group. You can then play the pad with the plugin to mute the routed audio.
+Load Midi Mute&Route onto a Pad and route audio to it from any other sound or group. You can then play the pad with the plugin to mute the routed audio.
 
 Mutes can easily be recorded onto a midi pattern or a clip just like any other instrument.
 
 ## Settings
 
-Choose the Midi Note which triggers the Mute function. The default note is 60, or C3, which is the default Note sent by any Pad in Pads mode on Maschine. (Default: 60 / C3)
+Choose the Midi Note which triggers the Mute function. The default note is 60, which is the default Note sent by any Pad on Maschine. (Default: 60 / C3)
 
 The Attack time of the mute and unmute can be set in milliseconds. Turn lower for a faster reaction time and higher if clicks are audible. (Default: 3 ms)
 
@@ -22,21 +22,21 @@ The plugin function can be reversed with the Invert switch. (Default: Off)
 
 ## FX Routing
 
-When the plugin receives a note between 1 and 7 notes above the configured Mute Note, the basic mute is activated and the audio is also temporarily routed to the plugin's Output Bus corresponding to that note. For example, if the Mute trigger note is the default note of 60, 61 would route the Audio to Output Bus 2 and 62 would route it to Output Bus 3, etc...
+When the plugin receives a note between 1 and 7 semitones above the configured Mute Note, the basic mute is activated and the audio is temporarily routed to the plugin's Output Bus corresponding to that note. For example, if the Mute trigger note is the default note of 60, 61 would route the Audio to Output Bus 2 and 62 would route it to Output Bus 3, etc...
 
 There are a number of creative use cases for this. Try these steps as an example on how to have fun with it:
 
 1. Load Midi Mute&Route as Sound 1 in a Group and route Audio from one or multiple source Groups or Sounds through it. This step is still part of the basic setup.
-2. Load a few FX plugins onto Sound 2 of the Group. For example, A Lofi and a Beat Delay.
+2. Load a few FX plugins onto Sound 2 of the Group. For example something severe, like a Lofi and a Frequency Shifter.
 3. In the channel Audio Input settings of Sound 2, set 'Audio In' to 'Output Bus 2' of Midi Mute&Route on Sound 1.
-4. In the channel Midi Output settings of Sound 2, set 'Midi Out' to Sound 1 and set Transpose to 1, to send Note 61 on a pad press, instead of the default Note 60.
+4. In the channel Midi Output settings of Sound 2, set 'Midi Out' to Sound 1 and set Transpose to 1, to send Note 61 on a pad press (instead of the default Note 60).
 5. Now play! The pad with Midi Mute&Route still has the muting function and the pad with the FX chain mutes and applies its effects. Yay!!
 
 When the Maschine is set to show the current Sound plugin you can even tweak the knobs as you play an effect chain.
 
-Maybe take it further and add different effects on different Sound Pads in this Group. Make sure each Pad has its Audio input configured to a different Output Bus of Midi Mute&Route and its Midi Output set to send the corresponding Midi Note. This setup can serve as an alternative to Automation and Lock States. You could create a whole setup of instant FX pads, which are easily performable and recordable.
+Maybe take it further and add different effects on different Sound Pads in this Group. Make sure each Pad has its Audio input configured to a different Output Bus of Midi Mute&Route and its Midi Output set to send the corresponding Midi Note. This setup can serve as an alternative to Automation and Lock States. You could create a whole setup of instant FX pads, with the performance being easily recordable.
 
-Other configurations are also conceivable. For example you could route FX and versions of this plugin in Series, or you could route an Output Bus to different Targets, you can play the pads with Note Repeat while playing with the Gate and the Timing, and so on...
+Other configurations are also conceivable. For example, you could route FX pads and versions of this plugin in Series, combine this plugin with Perform FX and Automation or try playing the pads with Note Repeat while playing with the Arp Gate and Timing.
 
 ## Maschine +
 
@@ -54,8 +54,8 @@ Email me at anzbert@gmail.com
 
 ## Change Log
 
-- 0.7 - Enabled all 8 Output Buses and made them responsive to different notes. Updated the UI to show all current Midi trigger inputs with corresponding Buses.
-- 0.6 - Added an optional Midi note input that ONLY mutes without routing the sound. Updated the UI Style
+- 0.7 - This is the first Release out of the Test stage. Enabled all 8 Output Buses and made them responsive to different notes. Updated the UI to show all current Midi trigger inputs with corresponding Buses.
+- 0.6 - Updated the UI Style.
 - 0.5.2 - Set input Midi to Omni by default. Fixed plugin not loading anymore because of Reaktor version mismatch
 - 0.5 - Connected Output Bus 2 for optional use of the currently muted signal
 - 0.4 - Added an Attack time selector
