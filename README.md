@@ -18,7 +18,7 @@ Choose the Midi Note which triggers the Mute function. The default note is 60, w
 
 The Attack time of the mute and unmute can be set in milliseconds. Turn lower for a faster reaction time and higher if clicks are audible. (Default: 3 ms)
 
-The plugin function can be reversed with the Invert switch. (Default: Off)
+The plugin function can be reversed with the Invert switch. This has somewhat of a latching effect. (Default: Off)
 
 ## FX Routing
 
@@ -36,7 +36,7 @@ When the Maschine is set to show the current Sound plugin you can even tweak the
 
 Maybe take it further and add different effects on different Sound Pads in this Group. Make sure each Pad has its Audio input configured to a different Output Bus of Midi Mute&Route and its Midi Output set to send the corresponding Midi Note. This setup can serve as an alternative to Automation and Lock States. You could create a whole setup of instant FX pads, with the performance being easily recordable.
 
-Other configurations are also conceivable. For example, you could route FX pads and versions of this plugin in Series, combine this plugin with Perform FX and Automation or try playing the pads with Note Repeat while playing with the Arp Gate and Timing.
+Other configurations are also conceivable. For example, you could route FX pads and versions of this plugin in Series, combine this plugin with Perform FX and Automation, use invert to latch FX and Mute on and off, try playing the pads with Note Repeat while playing with the Arp Gate and Timing, etc....
 
 ## Maschine +
 
