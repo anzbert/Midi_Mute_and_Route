@@ -54,6 +54,7 @@ Email me at anzbert@gmail.com
 
 ## Change Log
 
+- 0.8 - Fixed Maschine Knob Assignments / Removed unassigned and reserved controls
 - 0.7 - This is the first Release out of the Test stage. Enabled all 8 Output Buses and made them responsive to different notes. Updated the UI to show all current Midi trigger inputs with corresponding Buses.
 - 0.6 - Updated the UI Style.
 - 0.5.2 - Set input Midi to Omni by default. Fixed plugin not loading anymore because of Reaktor version mismatch
