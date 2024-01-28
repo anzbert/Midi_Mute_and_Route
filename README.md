@@ -48,7 +48,9 @@ Maschine Plus standalone compatible. Just copy to the SD card to this folder:
 
 ## Example Template
 
-A routing example template is available in this repo. Just copy the content of MidiMuteTemplate.zip to your Maschine folder. For example on the Maschine Plus SD card that would be:
+A routing example template is available in Github Repo here: https://github.com/anzbert/Midi_Mute_and_Route
+
+Just copy the content of MidiMuteTemplate.zip to your Maschine folder. For example on the Maschine Plus SD card that would be:
 
 /Native Instruments/Maschine 2/
 
