@@ -44,6 +44,18 @@ Maschine Plus standalone compatible. Just copy to the SD card to this folder:
 
 /Native Instruments/User Content/Reaktor/Ensembles/
 
+## Example Template
+
+A routing example template is available in this repo. Just copy the content of MidiMuteTemplate.zip to your Maschine folder. For example on the Maschine Plus SD card that would be:
+
+/Native Instruments/Maschine 2/
+
+Make sure the latest Midi Mute&Route is installed into the Reaktor Ensemble folder, as described above.
+
+All the routings should be done for you in this template. The example contains one mute button and 7 routes to be filled fith FX. There is also a Reverb and Delay Send, just to have a nice global FX group available.
+
+This template can also be used on desktop, but since the absolute path to the Reaktor Ensembles folder is different there, you will just have to double click on the Midi Mute&Route plugin once and locate the ensemble on your device. Just save the template afterwards for future use.
+
 ## Feedback and Development
 
 Feedback is appreciated. I am happy to add useful functions and fix bugs. I am still working on the optimal workflow for this plugin and I may change the available routing options in future releases.
